@@ -6,6 +6,14 @@
 
 import 'package:flutter/material.dart';
 
+
+
+
+
+
+
+import 'package:flutter/material.dart';
+
 class Rahim extends StatefulWidget {
   const Rahim({super.key});
 
@@ -145,7 +153,7 @@ children: [
                       fontSize: 28,
                       fontWeight: FontWeight.bold)),
               const SizedBox(height: 8),
-              const Text('بيتم تأكيد طلبك خلال 24 ساعة، كن جاهز 📞',
+              const Text('بيتم تأكيد طلبك خلال 24 ساعة 📞',
                   textAlign: TextAlign.center,
                   style: TextStyle(color: Colors.white70, fontSize: 16)),
               const SizedBox(height: 20),
@@ -168,4 +176,4 @@ children: [
       ),
     );
   }
-}
+} 
